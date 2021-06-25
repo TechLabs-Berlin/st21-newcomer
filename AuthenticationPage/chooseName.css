@@ -1,0 +1,107 @@
+.setUpName {
+  padding: 10px;
+  width: 372px;
+  height: 108px;
+  background: #f7c845;
+  border-radius: 15px;
+  width: 352px;
+  height: 88px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  margin-left: 500px;
+  margin-top: none;
+}
+
+.enterName {
+  width: 212px;
+  height: 44px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+  font-family: Marvel;
+}
+
+.inputNameandSave {
+  border: solid;
+  padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.inputName {
+  border: none;
+  border-bottom: 4px solid black;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.saveBtn {
+  background: #4aa96c;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  width: 100px;
+  height: 36px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Marvel;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.saveBtn:hover {
+  background-color: #52734d;
+}
+
+.previousBtn {
+  background: #76777b;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  width: 100px;
+  height: 36px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Marvel;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  margin-left: 350px;
+}
+.previousBtn:hover {
+  background-color: #444444;
+}
+
+.nextBtn {
+  background: #f7c845;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  width: 100px;
+  height: 36px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Marvel;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  margin-left: 420px;
+}
+
+.nextBtn:hover {
+  background-color: #ffc107;
+}
