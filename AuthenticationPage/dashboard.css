@@ -1,0 +1,144 @@
+.sidebar {
+  height: 100%;
+  width: 360px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;
+  text-align: center;
+}
+
+.helloUsernameText {
+  margin-left: 40px;
+  padding-top: 14px;
+  padding: 5px;
+  width: 240px;
+  height: 50px;
+  background: #f7c845;
+  border-radius: 15px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+/*Style Navbar*/
+.navText {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 268px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.changePicture {
+  color: white;
+  font-family: Marvel;
+}
+
+/* Style the list items */
+ol li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ol li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ol li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ol li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ol li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.content {
+  margin-left: 360px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  width: 500px;
+}
+
+.completeSteps {
+  margin-left: 360px;
+}
+
+.myInformations {
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 500px;
+}
+.logoutBtn {
+  color: #76777b;
+  width: 68px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 14px;
+  color: gray;
+}
+
+.completeSteps {
+  padding: 10px;
+  width: 572px;
+  height: 108px;
+  background: #f7c845;
+  border-radius: 15px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  margin-left: 450px;
+  margin-top: none;
+}
