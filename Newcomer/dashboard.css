@@ -1,0 +1,239 @@
+/*Style Navbar*/
+.navText {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 268px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+}
+/*Image section*/
+.addImage {
+  margin-top: 10px;
+  padding-top: 25px;
+  background-color: #363636;
+  height: 300px;
+  border-color: #f7c845;
+  border-style: solid;
+  border-radius: 15px;
+  height: 230px;
+}
+.changePicture {
+  color: white;
+  font-family: Marvel;
+  text-decoration: underline;
+}
+
+.imageProfile {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/*Change Name*/
+.displayarea {
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #f7c845;
+}
+
+.enterName {
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.inputNameandSave {
+  background-color: #363636;
+  height: 100px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.inputName {
+  border-bottom: 4px solid black;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.saveBtn {
+  background: #4aa96c;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 6px;
+  width: 70px;
+  height: 36px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  font-family: Marvel;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.saveBtn:hover {
+  background-color: #52734d;
+}
+/*Style Pfand score*/
+.myPfandScore {
+  text-align: center;
+  font-family: Marvel;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+}
+.pfandScore {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.score {
+  font-size: 20px;
+  color: #f7c845;
+}
+
+/*Style logout Button*/
+.logoutBtn {
+  color: white;
+  width: 90px;
+  height: 30px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.logoutBtn:hover {
+  background-color: #f7c845;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Style the list items */
+.stepsCompleted {
+  font-family: Marvel;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #f7c845;
+  margin-top: none;
+}
+.list {
+  font-family: Marvel;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+ol li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  transition: 0.2s;
+  font-family: Marvel;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ol li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ol li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ol li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ol li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #f7c845;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+/*Style Content*/
+.content {
+  margin-left: 360px;
+  width: 400px;
+}
+
+.myInformations {
+  margin-left: 150px;
+  width: 400px;
+}
+
+.completeSteps {
+  width: 900px;
+  height: 40px;
+  background: #f7c845;
+  border-radius: 15px;
+  font-family: Marvel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  padding: 12px;
+}
+.whatIneedToDo {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.whatIneedToDoText {
+  margin-top: 30px;
+  font-family: Marvel;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: underline;
+  color: #f7c845;
+}
+.infoToDo {
+  font-family: Marvel;
+  font-size: 20px;
+  color: black;
+  margin-left: 18px;
+}
