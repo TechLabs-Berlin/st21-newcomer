@@ -12,6 +12,7 @@ Newcomer: A guide for new Berliners
   * [0.9 Coding and Development](#coding-and-development)
   * [0.10 Future plans and other considerations about the project](#0.10-future-plans-and-other-considerations-about-the-project)
   * [0.11 Conclusion](#0.11-conclusion)
+  
 ## 0.1 Introduction
 The idea of the project Newcomer is a result of multiple conversations with immigrants and expats in Berlin who were puzzled about the German Bureaucracy and opportunities in terms of work contracts. In one such conversation, a simple question arose: “Is it possible to get a mini-job contract while holding a freelancer visa?”. The answer to this question is quite tricky as it depends on each particular case and Nationality. To answer the question, yes, it is possible to be a freelancer and work in a mini-job at the same time if you have relocated from other EU countries- a status that gives them special rights and benefits. However, people from outside the EU that hold a free-lancer visa are not allowed - at the beginning - to get a work contract until they get a permanent residency. If the expat is unaware of this rule and starts working, it might provide the authorities enough reason to void a valid visa. In order to avoid any confusion, many immigrants do not risk taking a mini-job. The Newcomer web-app aims at providing solutions to these puzzling ambiguities. 
 
@@ -27,7 +28,7 @@ Since we had a limited amount of time during our boot camp and the entire concep
 
 Since we couldn't find other apps with the same concept, we looked at other learning and habit-development apps like Duolingo, Primer, Grasshopper, Educated for some inspiration. This process helped us to have a better understanding of user flows, the importance of having a “dashboard” as a welcome page, a clear user interface, and a recognizable learning path for the user.
 
-![alt text](images/similar.png)
+![alt text](images/similar.jpg)
 
 ## 0.2 User Research results
 In order to have a better understanding of user needs, we decided to conduct research by doing a google forms survey. The main objective of the research was to unearth all the possible obstacles that potential users might experience during their relocation and integration to Berlin. We included questions related to their age, level of education, current visa conditions, the reason for relocation, and their biggest challenges with respect to each type of bureaucratic task, right from getting an Anmeldung to filing their tax returns. The survey was posted on several Facebook and slack groups. The survey link can be found here - 
@@ -54,6 +55,26 @@ Considering the diversity of our potential users, we decided to create multiple 
 The different outcomes from this process lead us to think on different possible case scenarios that could result in personalized tracks for each of them: For example, A foreign freelancer that prioritizes its duties with the tax office and yearly tax declarations, an Ausbildung student would need to improve his/her/their German skills and find a Praktikum, a young professional that is looking for job opportunities in Berlin would have to adapt the CV to the local job market. Generating multiple personas helped us create progressive disclosure of user flows for different scenarios. 
 
 ![alt text](images/personas2.png)
+
+Customer Journey Map
+If the user were to come across our app and use it, we need to have an understanding of the channels through which the user interacts and his emotions at the given time. We created a simple customer journey map, filling ourselves in the user’s shoes, and essaying what would be the user’s goals, assumptions, expectations, pain points, emotions, thoughts, problems, and opportunities, in each phase of the app-use - right from the time he discovers the app, to the time he uses it, to the downtime and support and finally deletion. 
+
+![alt text](images/CJM.png)
+
+Content and information architecture
+Due to the scope of the project and its “personalized track” feature, it is of utmost importance that the content is thoroughly organized. Since the entire project is based on progressive disclosure, we used all the possible case scenarios for each user depending on his nationality and age and designed the information architecture vast enough to suit our app needs. It was decided that the content flows would be defined by conditional logic trying not to exclude any particular case. Further, we developed user-flows to suit every type of long-term visas, nationality, age, profession. If the user is not yet in Berlin, they will be provided tips for securing the visa and some assistance with the pre-departure relocation tasks. If they are already in Berlin, they will be encouraged to take up the bureaucratic responsibilities, one at a time. The entire architecture can be found here
+https://miro.com/app/board/o9J_lK_gqVQ=/
+
+
+![alt text](images/Infoarch.png)
+
+
+![alt text](images/color_palette.jpg)
+
+
+![alt text](images/lofi.png)
+
+
 
 
 
