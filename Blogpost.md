@@ -62,7 +62,7 @@ Considering the diversity of our potential users, we decided to create multiple 
 
 The different outcomes from this process lead us to think on different possible case scenarios that could result in personalized tracks for each of them: For example, A foreign freelancer that prioritizes its duties with the tax office and yearly tax declarations, an Ausbildung student would need to improve his/her/their German skills and find a Praktikum, a young professional that is looking for job opportunities in Berlin would have to adapt the CV to the local job market. Generating multiple personas helped us create progressive disclosure of user flows for different scenarios. 
 
-![alt text](images/personas2.png)
+![alt text](images/persona2.png)
 
 **0.4 Customer Journey Map**
 
