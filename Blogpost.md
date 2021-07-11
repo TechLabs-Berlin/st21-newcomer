@@ -21,4 +21,4 @@ The initiative behind Newcomer was to create an app that presents the user with 
 
 We started by having multiple brainstorming sessions to seek answers to relevant questions like - “what can be realistically done in one month, with our given skillset?, “what value will the app provide?” “Are other apps doing the same thing?” and many more. All of these sessions were conducted on Miro. 
 
-![alt text](images/miro brainstorm.png)
+![alt text](images/mirobrainstorm.png)
