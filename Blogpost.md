@@ -1,7 +1,5 @@
-Newcomer: A guide for new Berliners
-
 ![alt text](images/Logo.jpg)
-
+Newcomer: A guide for new Berliners
 # Table of Contents
   * [0.1 Introduction](#introduction)
   * [0.2 User Research results](#user-research-results)
